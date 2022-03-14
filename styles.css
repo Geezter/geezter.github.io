@@ -1,4 +1,23 @@
 body {
   background-color: ivory;
+  color: gray;
   
 }
+
+h1 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 12px;
+  color: lavender;
+}
+
+ol start="A"{
+  
+}
+
+ul {
+  list-style-type: square;
+}
+  
