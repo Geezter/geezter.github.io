@@ -13,8 +13,8 @@ p {
   color: #48D1CC;
 }
 
-ol start="A"{
-  
+ol {
+  list-style: lower-alpha;
 }
 
 ul {
