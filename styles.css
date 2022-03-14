@@ -21,3 +21,9 @@ ul {
   list-style-type: square;
 }
   
+.element {
+  border-style: dotted;
+  border-style: dotted;
+  border-width: 2px;
+  width: 200px;
+  height: 200px;
