@@ -1,31 +1,94 @@
+
 body {
-  background-color: ivory;
-  color: gray;
-  
+    background-color: #FDF5E6;
+    
 }
 
-h1 {
-  font-size: 20px;
+.container{
+    width:80%;
+    margin:auto;
+    height: 100%;
 }
 
-p {
-  font-size: 12px;
-  color: #48D1CC;
+
+#title {
+    padding: 10px;
+    background-color: #209355;
+    width: 50%;
+    border-radius: 0px 10px 10px 0px;
+    border: dotted green 2px;
+    
 }
 
-ol {
-  list-style: lower-alpha;
+
+nav {
+    padding: 5px;
+    background-color: #209399;
+    border-radius: 0px 10px 10px 0px;
+    width: 200px;
 }
 
-ul {
-  list-style-type: square;
+h2 {
+    padding: 5px;
+    background-color: #209399;
+    border-radius: 0px 10px 10px 0px;
+    width: auto;
+    color: #111;
 }
-  
-.element {
-  border-style: dotted;
-  border-style: dotted;
-  border-width: 2px;
-  width: 200px;
-  height: 200px;
-  
+
+                
+.pictxt {
+    
+    height: 200px;
+    margin-top: 0px;
+    padding-top: 10px;
+    width: 400px;
+    
+}
+
+img {
+    border: solid black 1px;
+    border-radius: 50px;
+}
+
+
+
+progress[value] {
+  width: 250px;
+  height: 20px;
+}
+
+
+#wrapper {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F5FFFA;
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+
+nav a {
+    background-color: #FFF;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #111;
+    padding: 2px 10px;
+    font-family: arial;
+    border-radius: 0 5px 5px 0;
+    
+}
+
+nav a:hover {
+    background-color: gray;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+}
+
+figcaption {
+    width: 400px;
 }
