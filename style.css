@@ -1,94 +1,274 @@
 
-body {
-    background-color: #FDF5E6;
+
+.container {
+    max-width: 960px;
+    margin: 0px;
+    padding: 0;
+    display: grid;
+    
+    background: rgb(255, 255, 255);
+    
+
     
 }
 
-.container{
-    width:80%;
-    margin:auto;
-    height: 100%;
+body {
+    background: #FFF5EE;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-size: 14px;
+}
 
 #title {
-    padding: 10px;
-    background-color: #209355;
-    width: 50%;
-    border-radius: 0px 10px 10px 0px;
-    border: dotted green 2px;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    color: #111;
+    width: 400px;
+    font-family: serif;
+    font-size: 2.2em;
+    font-weight: bold;
+    font-style: italic;
+    padding-top: 30px;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: left;
+    
+    
     
 }
 
+#alaotsikko {
+    
+    float: left;
+    padding-top: 0;
+    margin-left: 0px;
+    font-size: 10px;
+    padding-left: 0px;
+    margin-top: 0;
+    font-weight: bold;
+
+}
+    
+.item {
+    
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 25px;
+    padding-top: 0px;
+    padding-right: 30px;
+    margin-right: 0px;
+    border: rgb(255, 255, 255) 1px solid;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+}
+
+header {
+    
+    grid-column: 2 / 4;
+    
+    
+    height: 220px;
+}
+
+header img {
+    border-radius: 105px;
+    padding-top: 20px;
+    margin-right: 30px;
+    float: right;
+}
 
 nav {
+    
+    grid-row: 1 / 6;
+    grid-column: 1 / 2;
+    width: 3px;
+    background-color: #111;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0;
+    padding:0px;
+    font-family: arial;
+    text-align: center;
+    
+}
+
+section ul {
+    font-size: 13px;
+}
+
+
+nav ul a {
+    text-decoration: none;
+    color: #202020;
+    border: solid rgb(208, 208, 238);
     padding: 5px;
-    background-color: #209399;
-    border-radius: 0px 10px 10px 0px;
-    width: 200px;
+    border-radius: 10px;
+    font-weight: bold;
+
+}
+
+
+section {
+    
+    grid-column: 2 / 3;
+    grid-row: 3 / 6;
+    
+    
 }
 
 h2 {
-    padding: 5px;
-    background-color: #209399;
-    border-radius: 0px 10px 10px 0px;
-    width: auto;
-    color: #111;
-}
-
-                
-.pictxt {
-    
-    height: 200px;
-    margin-top: 0px;
-    padding-top: 10px;
-    width: 400px;
-    
-}
-
-img {
-    border: solid black 1px;
-    border-radius: 50px;
-}
-
-
-
-progress[value] {
-  width: 250px;
-  height: 20px;
-}
-
-
-#wrapper {
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #F5FFFA;
-    padding-left: 10px;
-    padding-right: 10px;
-    
-}
-
-nav a {
-    background-color: #FFF;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #111;
-    padding: 2px 10px;
+    color: #4682B4;
     font-family: arial;
-    border-radius: 0 5px 5px 0;
+   
     
 }
 
-nav a:hover {
-    background-color: gray;
+aside {
+    
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+    background-color: rgba(128, 126, 126, 0.13);
+    width: 270px;
+    
+    
+}
+
+article {
+    
+    grid-column: 3 / 4;
+    grid-row: 4 / 5;
+    background-color: rgba(128, 126, 126, 0.13);
+    width: 270px;
 }
 
 footer {
-    width: 100%;
-    text-align: center;
+    
+    grid-column: 3 / 4;
+    grid-row: 5 / 6;
+    
+    
 }
 
-figcaption {
-    width: 400px;
+progress {
+    width: 150px;
+}
+
+aside ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+    
+}
+
+.friends p {
+    margin-top: 5px;
+    padding-left: 110px;
+}
+
+.friends img {
+    float: left;
+}
+
+.friends h3 {
+    padding-left: 110px;
+    margin-bottom: 5px;
+}
+
+aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    
+
+}
+
+aside li {
+    background-repeat: no-repeat;
+    font-weight: bold;
+    padding-left: 55px;
+    padding-bottom: 20px;
+}
+#fishing {
+    
+    background-image: url(images/koho.gif);
+    
+}
+
+#karate {
+    
+    background-image: url(images/karateka.png);
+    
+}
+
+#bubbles {
+   
+    background-image: url(images/bubbles.png);
+  
+}
+
+
+.interests {
+    font-size: 12px;
+    font-weight: lighter;
+    padding: 0;
+    margin: 0;
+}
+
+
+article ol {
+    
+    padding-left: 20px;
+}
+
+article li {
+    font-size: 14px;
+    padding-top: 5px;
+    
+}
+
+progress {
+    
+    text-align: right;
+    
+    float: right;
+    background: darkgray;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+footer li  {
+    background-repeat: no-repeat;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    background-position: left;
+    padding-top: 0;
+    
+    padding-bottom: 0px;
+}
+#posti {
+   
+    background-image: url(images/kirje.png);
+  
+}
+
+#address {
+    background-image: url(images/home.png);
+    
+}
+
+#ig {
+    background-image: url(images/ig.png);
 }
